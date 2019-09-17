@@ -2,7 +2,6 @@ package medium.friend_circle_queries
 import java.util.*
 
 
-// TODO: WORK IN PROGRESS
 class FriendCircles(values: List<Int>) {
     private val list: MutableMap<Int, Int> = values.map { it to it }.toMap().toMutableMap()
     private val nodesCount: MutableMap<Int, Int> = values.map { it to 1 }.toMap().toMutableMap()
