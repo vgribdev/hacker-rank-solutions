@@ -1,7 +1,7 @@
-package staircase
+package easy.staircase
 import java.util.*
 
-// Complete the staircase function below.
+// Complete the easy.staircase function below.
 fun staircase(n: Int) {
     for (i in 1..n) {
         val arr = CharArray(n) {
@@ -12,7 +12,7 @@ fun staircase(n: Int) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val n = scan.nextLine().trim().toInt()

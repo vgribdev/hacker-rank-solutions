@@ -1,4 +1,4 @@
-package plus_minus
+package easy.plus_minus
 
 import java.math.BigDecimal
 import java.math.RoundingMode

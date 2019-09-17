@@ -1,4 +1,4 @@
-package compare_the_triplets
+package easy.compare_the_triplets
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.text.*

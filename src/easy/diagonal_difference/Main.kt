@@ -1,4 +1,4 @@
-package diagonal_difference
+package easy.diagonal_difference
 
 import kotlin.collections.*
 import kotlin.io.*

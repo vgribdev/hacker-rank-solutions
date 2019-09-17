@@ -1,4 +1,4 @@
-package simple_array_sum
+package easy.simple_array_sum
 import java.util.*
 
 /*
@@ -8,7 +8,7 @@ fun simpleArraySum(ar: Array<Int>): Int {
     return ar.sum()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     scan.nextLine().trim().toInt()

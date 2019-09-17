@@ -1,4 +1,4 @@
-package mini_max_sum
+package easy.mini_max_sum
 import java.util.*
 
 // Complete the miniMaxSum function below.

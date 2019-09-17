@@ -1,4 +1,4 @@
-package a_very_big_sum
+package easy.a_very_big_sum
 import java.util.*
 import kotlin.collections.*
 import kotlin.io.*
