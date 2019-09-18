@@ -5,15 +5,14 @@ import kotlin.math.sqrt
 
 // Complete the primality function below.
 fun primality(n: Int): String {
-    var isPrime = true
-    when {
-        n == 2 -> isPrime = true
-        n < 2 -> isPrime = false
-        n % 2 == 0 -> isPrime = false
+    val isPrime = when {
+        n == 2 ->  true
+        n % 2 == 0 -> false
         else -> {
-            for (i in 3..sqrt(n.toDouble()).toInt())
+            for (i in 3..sqrt(n.toDouble()).toInt() step 2)
                 if (n % i == 0)
-                    isPrime = false
+                    return false
+            return true
         }
     }
     return if (isPrime) "Prime" else "Not prime"
