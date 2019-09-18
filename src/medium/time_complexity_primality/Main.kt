@@ -6,6 +6,7 @@ import kotlin.math.sqrt
 // Complete the primality function below.
 fun primality(n: Int): String {
     val isPrime = when {
+        n < 2 -> false
         n == 2 ->  true
         n % 2 == 0 -> false
         else -> {
