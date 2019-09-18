@@ -10,10 +10,14 @@ fun primality(n: Int): String {
         n == 2 ->  true
         n % 2 == 0 -> false
         else -> {
-            for (i in 3..sqrt(n.toDouble()).toInt() step 2)
+            var i = 3
+            var found = false
+            while(i<=sqrt(n.toDouble()).toInt() && !found){
                 if (n % i == 0)
-                    return false
-            return true
+                    found = true
+                i++
+            }
+            !found
         }
     }
     return if (isPrime) "Prime" else "Not prime"
